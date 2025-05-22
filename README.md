@@ -98,18 +98,19 @@ The system comprises **three core modules**:
 
 ---
 ## Future Directions
-Stage-wise Classification: Move beyond binary prediction to detect early/intermediate stages
 
-Multilingual Support: Train and test on multilingual datasets
+- **Stage-wise Classification:** Move beyond binary prediction to detect early and intermediate stages of the condition.
+- **Multilingual Support:** Train and evaluate the models on multilingual datasets to improve robustness.
+- **Model Ensembling:** Combine outputs from all three approaches to enhance overall prediction accuracy.
+- **Clinical Integration:** Develop real-time diagnostic tools and deployable systems for practical clinical use.
 
-Model Ensembling: Combine outputs from all three approaches
+---
 
-Clinical Integration: Build real-time diagnostic tools and deployable systems
+## 👩‍💻 Author
 
-## Author
-Shikha Chhabra
-B.Tech Information Technology
-Manipal University Jaipur, 2024–2025
+**Shikha Chhabra**  
+B.Tech Information Technology  
+Manipal University Jaipur, 2024–2025  
 
-Guided by Prof. Venkatesh Gauri Shankar
+Guided by Prof. Venkatesh Gauri Shankar  
 Department of Information Technology
