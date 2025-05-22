@@ -24,7 +24,7 @@ This project uses different datasets across its three branches due to the nature
   - **Healthy Samples**: Mozilla Common Voice (English, clean recordings)
   - **Parkinson’s Samples**: SJTU Parkinson’s Speech Dataset (downloaded from GitHub)
 - **Data Type**: Full speech sentences
-- **Reason**: Needed coherent speech input suitable for Whisper ASR and BERT-based NLP
+- **Use**: Transcriptions were **generated using OpenAI Whisper ASR**, then used as input for fine-tuned BERT-based NLP models.
 
 ---
 
@@ -39,5 +39,9 @@ You can download them from the original sources:
 ---
 
 ### 📁 Included in this folder:
-- `samples/`: A few sample `.wav` files (if license permits)
-- `metadata.csv`: A few example rows from the original dataset for reference only
+- `samples_numerical/`: A few example `.wav` files from the Figshare dataset
+- `samples_text/`: A few `.wav` files used for transcription-based BERT models
+- `metadata_numerical.csv`: Sample metadata for vowel-based audio (used in numerical/spectrogram branches)
+- `metadata_text.csv`: Sample metadata for full-speech audio (used in BERT branch)
+- `transcriptions.csv`: Sample transcriptions generated from `.wav` files using Whisper ASR
+- `label_map.json`: Mapping of class labels (e.g., {"HC": 0, "PD": 1})
