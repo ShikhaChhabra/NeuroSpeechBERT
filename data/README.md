@@ -42,6 +42,4 @@ You can download them from the original sources:
 - `samples_numerical/`: A few example `.wav` files from the Figshare dataset
 - `samples_text/`: A few `.wav` files used for transcription-based BERT models
 - `metadata_numerical.csv`: Sample metadata for vowel-based audio (used in numerical/spectrogram branches)
-- `metadata_text.csv`: Sample metadata for full-speech audio (used in BERT branch)
 - `transcriptions.csv`: Sample transcriptions generated from `.wav` files using Whisper ASR
-- `label_map.json`: Mapping of class labels (e.g., {"HC": 0, "PD": 1})
